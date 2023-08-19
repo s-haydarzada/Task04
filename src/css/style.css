@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100%;
-    background-color: yellow;
+    background-color: white;
     min-width: 800px;
     max-width: 1200px;
 }
@@ -15,7 +15,7 @@ body {
 header {
     width: 100%;
     height: 100px;
-    background-color: green;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -182,7 +182,7 @@ button[type="submit"] {
 main {
     width: 100%;
     height: 600px;
-    background-color: blue;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -193,7 +193,7 @@ main {
 .banner {
     width: 80%;
     height: 600px;
-    background-color: aquamarine;
+    background-color: transparent;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -253,7 +253,7 @@ main {
 .info_container {
     width: 80%;
     height: 400px;
-    background-color: cornflowerblue;
+    background-color: transparent;
     border-radius: 3px;
     display: flex;
     justify-content: space-between;
@@ -264,12 +264,14 @@ main {
 .content {
     width: 30%;
     height: 350px;
-    background-color: aqua;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     border-radius: 3px;
+    border: 1px solid rgba(87, 83, 83, 0.329);
+
 }
 
 .content:hover {
@@ -296,7 +298,7 @@ main {
 
 .wishlist {
     width: 100%;
-    height: 30px;
+    height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -306,7 +308,7 @@ main {
 .preview {
     width: 100px;
     height: 40px;
-    background-color: aquamarine;
+    background-color: transparent;
     outline: none;
     border: none;
     display: flex;
