@@ -259,6 +259,7 @@ main {
     justify-content: space-between;
     align-items: center;
     margin: 10px;
+    flex-wrap: wrap;
 }
 
 .content {
@@ -271,7 +272,7 @@ main {
     align-items: center;
     border-radius: 3px;
     border: 1px solid rgba(87, 83, 83, 0.329);
-
+    margin-top: 20px;
 }
 
 .content:hover {
@@ -304,6 +305,8 @@ main {
     align-items: center;
     border-top: 2px solid gray;
 }
+
+
 
 .preview {
     width: 100px;
